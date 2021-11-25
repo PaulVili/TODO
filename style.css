@@ -1,0 +1,56 @@
+.todo_list{
+    text-align: center;
+}
+body{
+    background: rgba(0, 102, 170, 0.548);
+}
+h1{
+    color: white;
+}
+
+input{
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+}
+
+button{
+    color: white;
+    background: rgb(17, 0, 255);
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.todoItem{
+    position: relative;
+    display: flex;
+    background: rgb(17, 0, 255);
+    border-radius: 15px;
+    margin: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoItemP{
+    color: white;
+    font-size: 24px;
+    margin-right: 1em;  
+}
+.buttons{
+    position: absolute;
+    right: 0;
+}
+.todoItemButtons{
+    background: rgb(179, 6, 0);
+}
+.task{
+    display: flex;
+    justify-content: center;
+}
+.tasksP{
+    margin: 1em;
+    font-size: 24px;
+    color: white;
+}
